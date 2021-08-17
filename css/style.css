@@ -1,0 +1,99 @@
+.container {
+  width: 1200px;
+  height: 700px;
+  background: hsl(233, 47%, 7%);
+}
+
+
+article {
+  width: 350px;
+  height: 300px;
+  float: left;
+  background: hsl(244, 38%, 16%);
+}
+
+article p.paragraph {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.card-container {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-right: 25px;
+}
+.text {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 10px;
+  line-height: 20px;
+  margin-top: 0px;
+}
+
+aside {
+  background: url(img/image-header-desktop.jpg) no-repeat  ;
+  width: 350px;
+  height: 300px;
+  float: left;
+  background-size: cover;
+}
+
+aside img {
+  width: 350px;
+  height: 300px;
+}
+
+.content {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+li{
+    color: white;
+    font-size: 8px;
+    list-style-type: none;
+}
+
+.block1{
+    float: left;
+    
+}
+.block2{
+    float: left;
+}
+.block3{
+ float: left;    
+}
+
+.numbers{
+    font-family: "Inter", sans-serif;
+    font-size:15px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+ul :nth-child(2){
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+    letter-spacing: 1px;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.color-overlay{
+  width: 100%;
+  height: 100%;
+  background: hsl(277deg 82% 36% / 60%);
+}
+
+.attribution{
+  font-family: 'Inter', sans-serif;
+}
