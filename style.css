@@ -35,7 +35,7 @@ article p.paragraph {
 }
 
 aside {
-  background: url(img/image-header-desktop.jpg) no-repeat  ;
+  background: url(image-header-desktop.jpg) no-repeat  ;
   width: 350px;
   height: 300px;
   float: left;
