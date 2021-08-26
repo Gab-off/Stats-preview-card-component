@@ -1,72 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
+    <title>Frontend Mentor | Stats preview card component</title>
 
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
 
-  <title>Frontend Mentor | Stats preview card component</title>
-</head>
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
 
-<body>
-  <div class="container">
-    <div class="content">
-      <article>
-        <div class=card-container>
-
+  <body>
+    <div class="container">
+      <section class="grid-box">
+        <div class="img-card">
+          <div class="overlay"></div>
+        </div>
+        <div class="grid-interno">
           <p class="paragraph">
             Get <span>insights</span> that help your bussiness grow.
           </p>
           <p class="text">
-            Discover the benefits of data analyticts and make betrter decisions regarding revenue, customer experience, and overall efficiency.
+            Discover the benefits of data analyticts and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
           </p>
+
+          <ul>
+            <li class="padding_right">
+              <div class="number_data">10k+</div>
+              <div class="text2">companies</div>
+            </li>
+
+            <li class="padding_right">
+              <div class="number_data">314</div>
+              <div class="text2">templates</div>
+            </li>
+
+            <li>
+              <div class="number_data">12M+</div>
+              <div class="text2">queries</div>
+            </li>
+          </ul>
         </div>
-        <div class="footer">
-          <div class="block1">
-            <ul>
-              <li class="numbers">10k+</li>
-              <li>companies</li>
-            </ul>
-          </div>
+      </section>
 
-          <div class="block2">
-            <ul>
-              <li class="numbers">314</li>
-              <li>templates</li>
-            </ul>
-          </div>
-
-          <div class="block3">
-            <ul>
-              <li class="numbers">12M+</li>
-              <li>queries</li>
-            </ul>
-          </div>
-        </div>
-      </article>
-
-      <aside>
-
-        <div class="color-overlay"></div>
-      </aside>
-
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Gab-Off</a>.
+      </div>
     </div>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/Gab-off">Gab-Off</a>.
-    </div>
-  </div>
-
-
-</body>
-
+  </body>
 </html>
